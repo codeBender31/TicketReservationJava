@@ -1,21 +1,21 @@
-##Ticket Reservation Backend
+## Ticket Reservation Backend
 Introduction
 This Java project serves as the backend for a ticket reservation system, allowing users to book seats in an auditorium. The project consists of various classes, including Auditorium, Node, Seat, Orders, and User, to facilitate the reservation process.
 
-#Classes
+# Classes
 Auditorium
 The Auditorium class represents the seating arrangement in an auditorium and is implemented as a 2D matrix of Node objects.
 
-#Node
+# Node
 The Node class represents individual nodes or seats in the auditorium. It contains information about the seat's availability and location.
 
-#Seat
+# Seat
 The Seat class defines the properties of a seat, such as its row and column, and is used in conjunction with the Node class to manage seat reservations.
 
-#Orders
+# Orders
 The Orders class handles the booking of seats, calculates the total cost of reservations, and maintains a record of orders made by users.
 
-#User
+# User
 The User class stores user information, including their name, contact details, and order history.
 
 Usage
